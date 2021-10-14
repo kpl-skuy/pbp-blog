@@ -51,7 +51,7 @@
                                                         <h4 class="mtb-10" title="<?= $pt5["judul"] ?>">
                                                             <a href="/post/detail/<?= $pt5["slug"] ?>"><b><?= crop_string($pt5["judul"], 40) ?></b></a></h4>
                                                         <ul class="list-li-mr-10 color-lt-black">
-                                                            <li><i class="mr-5 font-12 ion-ios-calendar-outline"></i><?php echo time_ago($pt5["tgl_insert"]) ?></li>
+                                                            <li><i class="mr-5 font-12 ion-ios-calendar-outline"></i><?= time_ago($pt5["tgl_insert"]) ?></li>
                                                             <li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i><?= $this->fungsi->sumKomentarInOnePost($pt5["idpost"]) ?></li>
                                                         </ul>
                                                     </div><!-- hot-news -->
