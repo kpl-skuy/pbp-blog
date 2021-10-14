@@ -55,8 +55,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!--<script src="/assets/js/bootstrap.bundle.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
-        integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Custom scripts for all pages-->
