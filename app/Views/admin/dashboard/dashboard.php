@@ -19,7 +19,7 @@
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Jumlah Penulis</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php $jmlpenulis ?></div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $jmlpenulis ?></div>
                                 </div>
                                 <div class="col-auto">
                                     <i class="fa fa-user fa-2x text-gray-300"></i>
@@ -36,7 +36,7 @@
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Jumlah Kategori</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php $jmlkategori ?></div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $jmlkategori ?></div>
                                 </div>
                                 <div class="col-auto">
                                     <i class="fa fa-folder fa-2x text-gray-300"></i>
@@ -54,7 +54,7 @@
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah Artikel</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php $jmlpost ?></div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $jmlpost ?></div>
                                 </div>
                                 <div class="col-auto">
                                     <i class="fa fa-newspaper fa-2x text-gray-300"></i>
@@ -71,7 +71,7 @@
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Jumlah Komentar</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php $jmlkomentar ?></div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $jmlkomentar ?></div>
                                 </div>
                                 <div class="col-auto">
                                     <i class="fa fa-comments fa-2x text-gray-300"></i>
@@ -89,7 +89,7 @@
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
                                     <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Jumlah Admin</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php $jmladmin ?></div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $jmladmin ?></div>
                                 </div>
                                 <div class="col-auto">
                                     <i class="fa fa-cog fa-2x text-gray-300"></i>
@@ -122,7 +122,7 @@
                             foreach ($kategori as $data) {
                                 $i++; ?>
                                 <span class="mr-2">
-                                    <i class="fas fa-circle" style="color:<?= $data['icon_color'] ?>"></i> <?= $data["nama"] ?>
+                                    <i class="fas fa-circle" style="color:<?php echo $data['icon_color'] ?>"></i> <?php echo $data["nama"] ?>
                                 </span>
                         <?php
                             }
