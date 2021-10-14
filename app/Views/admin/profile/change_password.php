@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="flash-data" data-text="<?= session()->getFlashdata('text'); ?>" data-title="<?= session()->getFlashdata('title'); ?>" data-icon="<?= session()->getFlashdata('icon'); ?>">
+            <div class="flash-data" data-text="<?php echo session()->getFlashdata('text'); ?>" data-title="<?php echo session()->getFlashdata('title'); ?>" data-icon="<?php echo session()->getFlashdata('icon'); ?>">
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -21,8 +21,8 @@
                             <div class="row">
                                 <div class="col-lg col-sm col-md">
                                     <div class="p-lg-5 p-5">
-                                        <form action="/admin/updatepassword/<?= $admin['idadmin']; ?>" method="post">
-                                            <?= csrf_field(); ?>
+                                        <form action="/admin/updatepassword/<?php echo $admin['idadmin']; ?>" method="post">
+                                            <?php echo csrf_field(); ?>
                                             <div class="form-group row">
                                                 <label for="password" class="col-sm-5 col-form-label">Password Lama</label>
                                                 <div class="col-sm-7">
@@ -41,7 +41,7 @@
                                                                                                     'is-invalid' : ''; ?>" name="newpassword" <?= ($validation->hasError('newpassword')) ?
                                                                                                                                                     'autofocus' : ''; ?> value="<?= old('newpassword') ?>">
                                                     <div class="invalid-feedback">
-                                                        <?= $validation->getError('newpassword'); ?>
+                                                        <?php echo $validation->getError('newpassword'); ?>
                                                     </div>
                                                 </div>
                                             </div>
