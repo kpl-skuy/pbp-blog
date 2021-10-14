@@ -18,8 +18,8 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!--    <link href="/assets/css/swiper.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.css"
-          integrity="sha512-CtogFo96PLW8q41ZASdAJPNIpkUPABsqVRjgAKfwtTPoi+TKV8GswIJMUL6CFGrzEHFrJpdPr7mAHp5UQ6cvbg=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css"
+          integrity="sha512-rVfXYRlhHtd3C4PzoBxSaKhI/uYEi0/5K69RwK/cdxQld57PC6mZ7tkutR+KD96WrXZ6E/96qYeY4CVun7a0/w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!--    <link href="/assets/fonts/ionicons/ionicons.css" rel="stylesheet">-->
