@@ -3,10 +3,10 @@
 
 * 	[Master Stylesheet]
 	
-	Theme Name :  
-	Version    :  
-	Author     :  
-	Author URI : 
+	Theme Name :
+	Version    :
+	Author     :
+	Author URI :
 
 
 
@@ -118,6 +118,14 @@ button {
 a:focus,
 a:active,
 a:hover,
+
+button {
+  outline: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
 button:focus,
 button:active,
 button:hover,
@@ -143,13 +151,6 @@ li {
 
 span {
   display: inline-block;
-}
-
-button {
-  outline: 0;
-  border: 0;
-  background: none;
-  cursor: pointer;
 }
 
 .icon {
@@ -303,7 +304,7 @@ header .logo img {
 header ul.main-menu > li > a {
   height: 100%;
   line-height: 70px;
-  padding: 0px 15px;
+  padding: 0 15px;
 }
 
 
@@ -321,10 +322,10 @@ header .right-area {
 
 header .src-form {
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
   margin-right: 20px;
   overflow: hidden;
@@ -1104,8 +1105,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   left: 0;
   right: 0;
   z-index: -1;
-  opacity: .6;
-  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .4) 100%);
+  opacity: 0.6;
+  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 
 .bg-layer-4:after {
@@ -1116,7 +1117,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   left: 0;
   right: 0;
   z-index: -1;
-  opacity: .50;
+  opacity: 0.50;
   background: #111;
 }
 
