@@ -471,7 +471,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
     color: #fff;
   }
 
-
   /* MAIN MENU */
   header .main-menu {
     display: none;
@@ -513,12 +512,10 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
     border-top: 1px solid #eee;
   }
 
-
   /* HAMBURGER ICON */
   header .menu-nav-icon {
     display: block;
   }
-
 
   /* DROPDOWN  */
   header .main-menu li.drop-down > ul.drop-down-menu {
@@ -542,7 +539,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   header .main-menu li.drop-down > ul.drop-down-inner li a {
     padding-left: 35px;
   }
-
 }
 
 @media only screen and (max-width: 575px) {
