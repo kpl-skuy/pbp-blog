@@ -54,9 +54,6 @@
   transition-property: transform, -webkit-transform;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
-}
-
-.swiper-wrapper {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
