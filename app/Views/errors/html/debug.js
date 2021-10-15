@@ -30,7 +30,7 @@ function init ()
     {
         tabLinks[id].onclick = showTab;
         tabLinks[id].onfocus = function () { this.blur() };
-        if (i == 0)
+        if (i===0)
         {
             tabLinks[id].className = 'active';
         }
@@ -55,7 +55,7 @@ function init ()
 
 function showTab ()
 {
-    var selectedId = getHash(this.getAttribute('href'));
+    var selectedId = getHash(this.getAttribute("href"));
 
     // Highlight the selected tab, and dim all others.
     // Also show the selected content div, and hide all others.
@@ -64,7 +64,7 @@ function showTab ()
         if (id == selectedId)
         {
             tabLinks[id].className = 'active';
-            contentDivs[id].className = 'content';
+            contentDivs[id].className = "content";
         }
         else
         {
