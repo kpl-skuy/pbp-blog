@@ -42,7 +42,7 @@ function init ()
 
     for (var id in contentDivs)
     {
-        if (i != 0)
+        if (i!==0)
         {
             console.log(contentDivs[id]);
             contentDivs[id].className = 'content hide';
@@ -61,7 +61,7 @@ function showTab ()
     // Also show the selected content div, and hide all others.
     for (var id in contentDivs)
     {
-        if (id == selectedId)
+        if (id===selectedId)
         {
             tabLinks[id].className = 'active';
             contentDivs[id].className = "content";
