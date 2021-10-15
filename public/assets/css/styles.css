@@ -351,9 +351,6 @@ header .src-form input {
   transition: all .0s;
 }
 
-header .src-form input:focus {
-}
-
 header .src-form button {
   font-size: 1.2em;
   position: absolute;
