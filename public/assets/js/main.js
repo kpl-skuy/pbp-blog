@@ -14,7 +14,7 @@ $("#scroll-to-top").click(function () {
 
 (function () {
     'use strict';
-    window.addEventListener('load', function () {
+    window.addEventListener("load", function () {
         // Fetch all the forms we want to apply custom Bootstrap validation styles to
         let forms = document.getElementsByClassName("needs-validation");
         // Loop over them and prevent submission
