@@ -10,12 +10,12 @@
 		
 		// ISOTOPE PORTFOLIO WITH FILTER
 		if(isExists('.p-grid-isotope')){
-			$('.p-grid-isotope').isotope({
+			$(".p-grid-isotope").isotope({
 				// set itemSelector so .grid-sizer is not used in layout
 				itemSelector: '.p-item',
 				percentPosition: true,
 				masonry: {
-					columnWidth: '.grid-sizer', 
+					columnWidth: ".grid-sizer", 
 					
 				},
 			})
@@ -29,7 +29,7 @@
 	var winWidth = $(window).width();
 	dropdownMenu(winWidth);
 	
-	$(window).on('resize', function(){
+	$(window).on("resize", function(){
 		winWidth = $(window).width();
 		dropdownMenu(winWidth);
 		
@@ -87,10 +87,10 @@ function enableSwiper(){
 		
 		$('.swiper-container').each(function (index) {
 			
-			var swiperDirection 			= $(this).data('swiper-direction'),
+			var swiperDirection 			= $(this).data("swiper-direction"),
 				swiperSlidePerView			= $(this).data('swiper-slides-per-view'),
 				swiperBreakpoints			= $(this).data('swiper-breakpoints'),
-				swiperSpeed					= $(this).data('swiper-speed'),
+				swiperSpeed					= $(this).data("swiper-speed"),
 				swiperCrossFade				= $(this).data('swiper-crossfade'),
 				swiperLoop					= $(this).data('swiper-loop'),
 				swiperAutoplay 				= $(this).data('swiper-autoplay'),
@@ -112,10 +112,10 @@ function enableSwiper(){
 				pagination			: $(this).find('.swiper-pagination'),
 				
 				slidesPerView		: ( swiperSlidePerView ? swiperSlidePerView : 1 ),
-				direction			: ( swiperDirection ? swiperDirection : 'horizontal'),
+				direction			: ( swiperDirection ? swiperDirection : "horizontal"),
 				loop				: ( swiperLoop ? swiperLoop : false),
-				nextButton			: '.swiper-button-next',
-				prevButton			: '.swiper-button-prev',
+				nextButton			: ".swiper-button-next",
+				prevButton			: ".swiper-button-prev",
 				autoplay			: ( swiperAutoplay ? swiperAutoplay : false),
 				paginationClickable	: true,
 				spaceBetween		: ( swiperMargin ? swiperMargin : 0),
