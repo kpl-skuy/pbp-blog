@@ -47,6 +47,7 @@ p.lead {
   display: none;
   text-decoration: none;
 }
+
 .header:hover a {
   display: inline;
 }
@@ -126,7 +127,7 @@ p.lead {
   margin-top: 2rem;
   display: block;
   text-align: center;
-  line-height: 3.0;
+  line-height: 3.0px;
   background: #d9edf7;
   border: 1px solid #bcdff1;
   border-radius: 5px;
@@ -172,6 +173,7 @@ td pre {
 .trace td pre {
   margin: 0;
 }
+
 .args {
   display: none;
 }
