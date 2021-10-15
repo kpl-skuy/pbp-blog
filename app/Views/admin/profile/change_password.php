@@ -21,7 +21,7 @@
                             <div class="row">
                                 <div class="col-lg col-sm col-md">
                                     <div class="p-lg-5 p-5">
-                                        <form action="/admin/updatepassword/<?= $admin['idadmin']; ?>" method="post">
+                                        <form action="/admin/updatepassword/<?php echo $admin['idadmin']; ?>" method="post">
                                             <?= csrf_field(); ?>
                                             <div class="form-group row">
                                                 <label for="password" class="col-sm-5 col-form-label">Password Lama</label>
