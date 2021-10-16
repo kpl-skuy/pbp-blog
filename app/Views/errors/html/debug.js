@@ -13,7 +13,7 @@ function init ()
     // console.log(tabListItems);
     for (var i = 0; i < tabListItems.length; i ++)
     {
-        if (tabListItems[i].nodeName == "LI")
+        if (tabListItems[i].nodeName === "LI")
         {
             var tabLink = getFirstChildWithTagName(tabListItems[i], 'A');
             var id = getHash(tabLink.getAttribute('href'));
@@ -26,7 +26,7 @@ function init ()
     // highlight the first tab
     var i = 0;
 
-    for (var id in tabLinks)
+    for (id in tabLinks)
     {
         tabLinks[id].onclick = showTab;
         tabLinks[id].onfocus = function () { this.blur() };
