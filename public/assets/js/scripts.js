@@ -6,16 +6,16 @@
 	
 	// ISOTOPE
 	
-	$(window).on('load', function(){
+	$(window).on("load", function(){
 		
 		// ISOTOPE PORTFOLIO WITH FILTER
-		if(isExists('.p-grid-isotope')){
-			$('.p-grid-isotope').isotope({
+		if(isExists(".p-grid-isotope")){
+			$(".p-grid-isotope").isotope({
 				// set itemSelector so .grid-sizer is not used in layout
-				itemSelector: '.p-item',
+				itemSelector: ".p-item",
 				percentPosition: true,
 				masonry: {
-					columnWidth: '.grid-sizer', 
+					columnWidth: ".grid-sizer", 
 					
 				},
 			})
@@ -29,7 +29,7 @@
 	var winWidth = $(window).width();
 	dropdownMenu(winWidth);
 	
-	$(window).on('resize', function(){
+	$(window).on("resize", function(){
 		winWidth = $(window).width();
 		dropdownMenu(winWidth);
 		
@@ -37,9 +37,9 @@
 	
 
 				
-	$('[data-menu]').on('click', function(){
+	$('[data-menu]').on("click", function(){
 		
-		var mainMenu = $(this).data('menu');
+		var mainMenu = $(this).data("menu");
 		
 		$(mainMenu).toggleClass('visible-menu');
 		
@@ -55,7 +55,7 @@ function dropdownMenu(winWidth){
 	
 	if(winWidth > 767){
 		
-		$('.main-menu li.drop-down').on('mouseover', function(){
+		$('.main-menu li.drop-down').on("mouseover", function(){
 			var $this = $(this),
 				menuAnchor = $this.children('a');
 				
@@ -72,7 +72,7 @@ function dropdownMenu(winWidth){
 		
 		$('.main-menu li.drop-down > a').on('click', function(){
 			
-			if($(this).attr('href') == '#') return false;
+			if($(this).attr("href") == '#') return false;
 			if($(this).hasClass('mouseover')){ $(this).removeClass('mouseover'); }
 			else{ $(this).addClass('mouseover'); }
 			return false;
@@ -87,22 +87,22 @@ function enableSwiper(){
 		
 		$('.swiper-container').each(function (index) {
 			
-			var swiperDirection 			= $(this).data('swiper-direction'),
-				swiperSlidePerView			= $(this).data('swiper-slides-per-view'),
-				swiperBreakpoints			= $(this).data('swiper-breakpoints'),
-				swiperSpeed					= $(this).data('swiper-speed'),
-				swiperCrossFade				= $(this).data('swiper-crossfade'),
-				swiperLoop					= $(this).data('swiper-loop'),
-				swiperAutoplay 				= $(this).data('swiper-autoplay'),
-				swiperMousewheelControl 	= $(this).data('swiper-wheel-control'),
-				swipeSlidesPerview 			= $(this).data('slides-perview'),
-				swiperMargin 				= parseInt($(this).data('swiper-margin')),
-				swiperSlideEffect 			= $(this).data('slide-effect'),
-				swiperAutoHeight 			= $(this).data('autoheight'),
-				swiperScrollbar 			= ($(this).data('scrollbar') ? $(this).parentsUntil('.swiper-area').find('.swiper-scrollbar') : null);
+			var swiperDirection 			= $(this).data("swiper-direction"),
+				swiperSlidePerView			= $(this).data("swiper-slides-per-view"),
+				swiperBreakpoints			= $(this).data("swiper-breakpoints"),
+				swiperSpeed					= $(this).data("swiper-speed"),
+				swiperCrossFade				= $(this).data("swiper-crossfade"),
+				swiperLoop					= $(this).data("swiper-loop"),
+				swiperAutoplay 				= $(this).data("swiper-autoplay"),
+				swiperMousewheelControl 	= $(this).data("swiper-wheel-control"),
+				swipeSlidesPerview 			= $(this).data("slides-perview"),
+				swiperMargin 				= parseInt($(this).data("swiper-margin")),
+				swiperSlideEffect 			= $(this).data("slide-effect"),
+				swiperAutoHeight 			= $(this).data("autoheight"),
+				swiperScrollbar 			= ($(this).data("scrollbar") ? $(this).parentsUntil('.swiper-area').find('.swiper-scrollbar') : null);
 				//swiperScrollbar 			= ($(this).data('scrollbar') ? $(this).find('.swiper-scrollbar') : null);
 				swiperScrollbar 			= (isExists(swiperScrollbar) ? swiperScrollbar : null),
-				swprResponsive				= $(this).data('swpr-responsive'); 
+				swprResponsive				= $(this).data("swpr-responsive"); 
 		
 	
 			
@@ -112,10 +112,10 @@ function enableSwiper(){
 				pagination			: $(this).find('.swiper-pagination'),
 				
 				slidesPerView		: ( swiperSlidePerView ? swiperSlidePerView : 1 ),
-				direction			: ( swiperDirection ? swiperDirection : 'horizontal'),
+				direction			: ( swiperDirection ? swiperDirection : "horizontal"),
 				loop				: ( swiperLoop ? swiperLoop : false),
-				nextButton			: '.swiper-button-next',
-				prevButton			: '.swiper-button-prev',
+				nextButton			: ".swiper-button-next",
+				prevButton			: ".swiper-button-prev",
 				autoplay			: ( swiperAutoplay ? swiperAutoplay : false),
 				paginationClickable	: true,
 				spaceBetween		: ( swiperMargin ? swiperMargin : 0),
