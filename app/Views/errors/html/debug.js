@@ -107,7 +107,7 @@ function toggle (elem)
     if (elem.style && elem.style["display"])
     {
         // Only works with the "style" attr
-        var disp = elem.style['display'];
+        var disp = elem.style["display"];
     }
     else if (elem.currentStyle)
     {
