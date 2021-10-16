@@ -41,7 +41,7 @@
                             </div><!-- s-left-->
 
                             <div class="s-right">
-                                <p class="ptb-20 color-ash"><b><?= esc_attr(ucfirst($penulis["nama"])) ?> <br> on <?= esc_attr(tanggal($post["tgl_insert"])) ?> <?= month($post["tgl_insert"]) ?> <?= tahun($post["tgl_insert"]) ?> at <?= pukul($post["tgl_insert"]) ?> </b></p>
+                                <p class="ptb-20 color-ash"><b><?= esc_attr(ucfirst($penulis["nama"])) ?> <br> on <?= esc_attr(tanggal($post["tgl_insert"])) ?> <?= esc_attr(month($post["tgl_insert"])) ?> <?= esc_attr(tahun($post["tgl_insert"])) ?> at <?= esc_attr(pukul($post["tgl_insert"])) ?> </b></p>
                             </div>
                         </div><!-- sided-80x-->
                     </div><!-- col-md-6-->
@@ -68,7 +68,7 @@
 
                 <ul class="tag mtb-50">
                     <?php foreach ($allkategori as $ak) : ?>
-                        <li class="mb-2"><a href="/post/category/<?= strtolower($ak["nama"]) ?>"><b><?= esc_attr($ak["nama"]) ?></b></a></li>
+                        <li class="mb-2"><a href="/post/category/<?= esc_attr(strtolower($ak["nama"])) ?>"><b><?= esc_attr($ak["nama"]) ?></b></a></li>
                     <?php endforeach ?>
                 </ul>
 
