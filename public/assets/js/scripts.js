@@ -96,7 +96,7 @@ function enableSwiper(){
 				swiperAutoplay 				= $(this).data("swiper-autoplay"),
 				swiperMousewheelControl 	= $(this).data("swiper-wheel-control"),
 				swipeSlidesPerview 			= $(this).data("slides-perview"),
-				swiperMargin 				= parseInt($(this).data("swiper-margin")),
+				swiperMargin 				= parseInt($(this).data("swiper-margin"), 10),
 				swiperSlideEffect 			= $(this).data("slide-effect"),
 				swiperAutoHeight 			= $(this).data("autoheight"),
 				swiperScrollbar 			= ($(this).data("scrollbar") ? $(this).parentsUntil('.swiper-area').find('.swiper-scrollbar') : null);

@@ -51,8 +51,8 @@
                                                         <h4 class="mtb-10" title="<?= $pt5["judul"] ?>">
                                                             <a href="/post/detail/<?= $pt5["slug"] ?>"><b><?= crop_string($pt5["judul"], 40) ?></b></a></h4>
                                                         <ul class="list-li-mr-10 color-lt-black">
-                                                            <li><i class="mr-5 font-12 ion-ios-calendar-outline"></i><?= time_ago($pt5["tgl_insert"]) ?></li>
-                                                            <li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i><?= $this->fungsi->sumKomentarInOnePost($pt5["idpost"]) ?></li>
+                                                            <li><i class="mr-5 font-12 far fa-calendar"></i><?= time_ago($pt5["tgl_insert"]) ?></li>
+                                                            <li><i class="mr-5 font-12 far fa-comments"></i><?= $this->fungsi->sumKomentarInOnePost($pt5["idpost"]) ?></li>
                                                         </ul>
                                                     </div><!-- hot-news -->
                                                 </div><!-- hot-news -->
@@ -115,8 +115,8 @@
                                                         <h4 class="mtb-10" title="<?= $p["judul"] ?>"><a href="/post/detail/<?= $p["slug"] ?>">
                                                                 <b><?= crop_string($p["judul"], 40) ?></b></a></h4>
                                                         <ul class="list-li-mr-10 color-lt-black">
-                                                            <li><i class="mr-5 font-12 ion-ios-calendar-outline"></i><?= indo_date($p["tgl_insert"]) ?></li>
-                                                            <li><i class="mr-5 font-12 ion-ios-chatbubble-outline"></i><?= $this->fungsi->sumKomentarInOnePost($p["idpost"]) ?></li>
+                                                            <li><i class="mr-5 font-12 far fa-calendar"></i><?= indo_date($p["tgl_insert"]) ?></li>
+                                                            <li><i class="mr-5 font-12 far fa-comments"></i><?= $this->fungsi->sumKomentarInOnePost($p["idpost"]) ?></li>
                                                         </ul>
                                                     </div><!-- dplay-tbl-cell -->
                                                 </div><!-- dplay-tbl -->

@@ -24,8 +24,12 @@
 
     <!--    <link href="/assets/fonts/ionicons/ionicons.css" rel="stylesheet">-->
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.3/collection/components/icon/icon.min.css"
+          href="code.ionicframework.com/ionicons/2.0.0/css/ionicons.css"
           integrity="sha512-DR9Jj0uFIfe7v1QLrvPRusRxqdSnVSVRyRBt1H8gcRQgxMKEwsOMSNYs0hyIpo8AITFyCMDC2Q1fCg1XcgdYig=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <link href="/assets/css/styles.css" rel="stylesheet">
