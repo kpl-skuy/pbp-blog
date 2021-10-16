@@ -69,7 +69,7 @@ function dropdownMenu(winWidth){
 
 		$(".main-menu li.drop-down > a").on("click", function(){
 
-			if($(this).attr("href") === "#") return false;
+			if($(this).attr("href") === "#") {return false};
 			if($(this).hasClass("mouseover")){ $(this).removeClass("mouseover"); }
 			else{ $(this).addClass("mouseover"); }
 			return false;
