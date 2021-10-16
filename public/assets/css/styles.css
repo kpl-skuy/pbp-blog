@@ -1506,7 +1506,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 }
 
 @media only screen and (max-width: 575px) {
-
   .pos-xs-relative {
     position: relative;
     z-index: 1;
@@ -1726,7 +1725,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 
-.bg-layer-4:after {
+.bg-layer-4::after {
   content: '';
   position: absolute;
   top: 0;
@@ -1751,7 +1750,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 }
 
 
-.bg-layer-7:after {
+.bg-layer-7::after {
   content: '';
   position: absolute;
   top: 0;
