@@ -24,7 +24,7 @@ $("#scroll-to-top").click(function () {
                     event.preventDefault();
                     event.stopPropagation();
                 } else {
-                    alert('Success! Thank you for filling the form.')
+                    alert('Success! Thank you for filling the form.');
                     return true;
                 }
                 form.classList.add('was-validated');
