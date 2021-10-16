@@ -18,7 +18,7 @@ function init ()
             var tabLink = getFirstChildWithTagName(tabListItems[i], 'A');
             var id = getHash(tabLink.getAttribute('href'));
             tabLinks[id] = tabLink;
-            contentDivs[id] = document.getElementById(id);
+            contentDivs[id] = document.getElementById("id");
         }
     }
 
