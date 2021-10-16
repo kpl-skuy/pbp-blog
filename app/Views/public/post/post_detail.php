@@ -1,5 +1,5 @@
-<?= esc_html($this->extend('templates/public/template')) ?>
-<?= esc_html($this->section('contentpublic')) ?>
+<?= ($this->extend('templates/public/template')) ?>
+<?= ($this->section('contentpublic')) ?>
 
 <!-- ISI KONTEN -->
 <!-- Taruh konten di bawah sini -->
