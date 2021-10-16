@@ -10,8 +10,6 @@
         </form><!-- src-form -->
     </div><!-- right-area -->
 
-    <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
-
     <ul class="main-menu d-lg-flex" id="main-menu">
         <li class="ml-lg-3"><a href="/post" class="mr-2">Home</a></li>
         <li class="drop-down"><a href="#!">Kategori<i class="ion-arrow-down-b"></i></a>
