@@ -1,5 +1,5 @@
-<?= esc_html($this->extend('templates/public/template')) ?>
-<?= esc_html($this->section('contentpublic')) ?>
+<?= $this->extend('templates/public/template') ?>
+<?= $this->section('contentpublic') ?>
 
 <!-- ISI KONTEN -->
 <!-- Taruh konten di bawah sini -->
@@ -15,8 +15,8 @@
                     <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6">
 
                         <div class="bg-white p-40 psm-30">
-                            <h5 class="color-ash"><b><?= esc_attr(ucfirst($post["nama"])) ?></b></h5>
-                            <h2 class="mt-20 lh-1-2" title="<?= esc_attr($post["judul"]) ?>"><b><?= esc_attr(crop_string($post["judul"], 120)) ?></b></h2>
+                            <h5 class="color-ash"><b><?= ucfirst($post["nama"]) ?></b></h5>
+                            <h2 class="mt-20 lh-1-2" title="<?= $post["judul"] ?>"><b><?= crop_string($post["judul"], 120) ?></b></h2>
 
                         </div><!-- bg-white -->
                     </div><!-- col-lg-4 -->
@@ -41,7 +41,7 @@
                             </div><!-- s-left-->
 
                             <div class="s-right">
-                                <p class="ptb-20 color-ash"><b><?= esc_attr(ucfirst($penulis["nama"])) ?> <br> on <?= esc_attr(tanggal($post["tgl_insert"])) ?> <?= month($post["tgl_insert"]) ?> <?= tahun($post["tgl_insert"]) ?> at <?= pukul($post["tgl_insert"]) ?> </b></p>
+                                <p class="ptb-20 color-ash"><b><?= ucfirst($penulis["nama"]) ?> <br> on <?= tanggal($post["tgl_insert"]) ?> <?= month($post["tgl_insert"]) ?> <?= tahun($post["tgl_insert"]) ?> at <?= pukul($post["tgl_insert"]) ?> </b></p>
                             </div>
                         </div><!-- sided-80x-->
                     </div><!-- col-md-6-->
@@ -57,18 +57,18 @@
                 </div><!-- row-->
 
                 <p class="mt-40 mt-sm-10">
-                    <img src="/assets/img/post/<?= esc_attr($post["file_gambar"]) ?>" alt="<?= esc_attr($post["judul"]) ?>" style="object-fit:cover;">
+                    <img src="/assets/img/post/<?= $post["file_gambar"] ?>" alt="<?= $post["judul"] ?>" style="object-fit:cover;">
 
                 </p>
 
                 <p class="mt-40 mt-sm-10">
-                    <?= esc_attr($post["isi_post"]) ?>
+                    <?= $post["isi_post"] ?>
                 </p>
 
 
                 <ul class="tag mtb-50">
                     <?php foreach ($allkategori as $ak) : ?>
-                        <li class="mb-2"><a href="/post/category/<?= strtolower($ak["nama"]) ?>"><b><?= esc_attr($ak["nama"]) ?></b></a></li>
+                        <li class="mb-2"><a href="/post/category/<?= strtolower($ak["nama"]) ?>"><b><?= $ak["nama"] ?></b></a></li>
                     <?php endforeach ?>
                 </ul>
 
