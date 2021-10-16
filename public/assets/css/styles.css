@@ -529,10 +529,13 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   }
 
   @keyframes full-opacity-anim {
+    0% {
+      opacity: 0;
+    }
+  
     100% {
       opacity: 1;
     }
-
   }
 
   header .main-menu > li {
