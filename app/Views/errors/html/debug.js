@@ -112,7 +112,7 @@ function toggle (elem)
     else if (elem.currentStyle)
     {
         // For MSIE, naturally
-        var disp = elem.currentStyle['display'];
+        var disp = elem.currentStyle["display"];
     }
     else if (window.getComputedStyle)
     {
