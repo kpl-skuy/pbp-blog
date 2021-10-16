@@ -211,6 +211,7 @@ textarea:focus {
   h1 {
     font-size: 3.5em;
   }
+  
   h2 {
     font-size: 2.3em;
   }
@@ -271,6 +272,7 @@ header {
 
 header:after {
   content: '';
+  clear: both;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -283,13 +285,7 @@ header i {
   font-size: 1.1em;
 }
 
-
 /* BOTTOM HEADER */
-
-header:after {
-  content: '';
-  clear: both;
-}
 
 header .logo {
   float: left;
