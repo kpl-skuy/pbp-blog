@@ -813,23 +813,23 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 /* FONTS */
 
 .font-7 {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 .font-75 {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .font-8 {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .font-85 {
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 .font-9 {
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .font-11 {
@@ -1128,7 +1128,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   left: 0;
   right: 0;
   z-index: -1;
-  opacity: .60;
+  opacity: 0.60;
   background: #111;
 }
 
@@ -1141,7 +1141,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   left: 0;
   right: 0;
   z-index: -1;
-  opacity: .7;
+  opacity: 0.7;
   background: #111;
 }
 
@@ -1298,13 +1298,13 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 }
 
 .btn-b-md {
-  font-size: .9em;
+  font-size: 0.9em;
   height: 35px;
   line-height: 35px;
 }
 
 .btn-b-sm {
-  font-size: .9em;
+  font-size: 0.9em;
   height: 30px;
   line-height: 28px;
 }
