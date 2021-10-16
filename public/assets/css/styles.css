@@ -384,8 +384,8 @@ header .src-form input {
   border: 0 solid #ccc;
   outline: 0;
   background: none;
-  -webkit-transition: all .0s;
-  transition: all .0s;
+  -webkit-transition: all 0.0s;
+  transition: all 0.0s;
 }
 
 header .src-form button {
@@ -554,25 +554,25 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   }
 
   /* DROPDOWN  */
-  header .main-menu li.drop-down > ul.drop-down-menu {
+  header.main-menu li.drop-down > ul.drop-down-menu {
     position: static;
     box-shadow: none;
   }
 
-  header .main-menu li.drop-down > ul.drop-down-menu li {
+  header.main-menu li.drop-down > ul.drop-down-menu li {
     border-top: 1px solid #eee;
   }
 
-  header .main-menu li.drop-down > ul.drop-down-inner li:first-child {
+  header.main-menu li.drop-down > ul.drop-down-inner li:first-child {
     border-top: 1px solid #ddd;
   }
 
   /* DROPDOWN HOVER */
-  header .main-menu li.drop-down > ul.drop-down-menu li a {
+  header.main-menu li.drop-down > ul.drop-down-menu li a {
     padding-left: 25px;
   }
 
-  header .main-menu li.drop-down > ul.drop-down-inner li a {
+  header.main-menu li.drop-down > ul.drop-down-inner li a {
     padding-left: 35px;
   }
 }
