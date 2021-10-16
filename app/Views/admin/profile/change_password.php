@@ -41,7 +41,7 @@
                                                                                                     'is-invalid' : ''; ?>" name="newpassword" <?= ($validation->hasError('newpassword')) ?
                                                                                                                                                     'autofocus' : ''; ?> value="<?= old('newpassword') ?>">
                                                     <div class="invalid-feedback">
-                                                        <?= $validation->getError('newpassword'); ?>
+                                                        <?= esc_attr($validation->getError('newpassword')); ?>
                                                     </div>
                                                 </div>
                                             </div>
