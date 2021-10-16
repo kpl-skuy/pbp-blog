@@ -72,7 +72,7 @@ function dropdownMenu(winWidth){
 		
 		$('.main-menu li.drop-down > a').on('click', function(){
 			
-			if($(this).attr("href") == '#') return false;
+			if($(this).attr("href") === '#') return false;
 			if($(this).hasClass('mouseover')){ $(this).removeClass('mouseover'); }
 			else{ $(this).addClass('mouseover'); }
 			return false;
@@ -123,7 +123,7 @@ function enableSwiper(){
 				scrollbar			: ( swiperScrollbar ? swiperScrollbar : null ),
 				scrollbarHide		: false,
 				speed				: ( swiperSpeed ? swiperSpeed : 1000 ),
-				autoHeight			: ( (swiperAutoHeight == false) ? swiperAutoHeight : true ),
+				autoHeight			: ( (swiperAutoHeight === false) ? swiperAutoHeight : true ),
 				effect				: ( swiperSlideEffect ? swiperSlideEffect : 'coverflow' ),
 				fade				: { crossFade: swiperCrossFade ? swiperCrossFade : false },
 				breakpoints			: {
