@@ -94,7 +94,7 @@ function getFirstChildWithTagName (element, tagName)
 
 function getHash (url)
 {
-    var hashPos = url.lastIndexOf('#');
+    var hashPos = url.lastIndexOf("#");
     return url.substring(hashPos + 1);
 }
 
