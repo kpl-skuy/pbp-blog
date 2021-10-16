@@ -157,8 +157,7 @@ span {
   line-height: inherit;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+[class^="icon-"]::before {
   line-height: inherit;
 }
 
