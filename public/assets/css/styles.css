@@ -218,7 +218,6 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 767px) {
-
   p {
     line-height: 1.4;
   }
@@ -242,7 +241,6 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 575px) {
-
   body {
     font-size: 14px;
   }
@@ -295,12 +293,6 @@ header .logo {
 header .logo img {
   height: 100%;
   width: auto;
-}
-
-header ul.main-menu > li > a {
-  height: 100%;
-  line-height: 70px;
-  padding: 0 15px;
 }
 
 /* MARGIN/PADDING */
@@ -929,6 +921,13 @@ header ul.main-menu > li > a {
   color: #fff;
 }
 
+header ul.main-menu > li > a {
+  height: 100%;
+  line-height: 70px;
+  padding: 0 15px;
+}
+
+
 /* SEARCH AREA */
 
 header .right-area {
@@ -949,8 +948,8 @@ header .src-form {
   z-index: 1;
   margin-right: 20px;
   overflow: hidden;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 header .src-form form {
@@ -1081,7 +1080,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 }
 
 @media only screen and (max-width: 767px) {
-
   header {
     color: #111;
   }
@@ -1153,11 +1151,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   }
 
   /* DROPDOWN HOVER */
-  header.main-menu li.drop-down > ul.drop-down-menu li a {
+  header.main-menu li.drop-down > ul.drop-down-menu li > a {
     padding-left: 25px;
   }
 
-  header.main-menu li.drop-down > ul.drop-down-inner li a {
+  header.main-menu li.drop-down > ul.drop-down-inner li > a {
     padding-left: 35px;
   }
 }
