@@ -120,7 +120,6 @@ function enableSwiper(){
 				paginationClickable	: true,
 				spaceBetween		: ( swiperMargin ? swiperMargin : 0),
 				mousewheelControl	: ( (swiperMousewheelControl) ? swiperMousewheelControl : false),
-				mousewheelControl: true,
 				scrollbar			: ( swiperScrollbar ? swiperScrollbar : null ),
 				scrollbarHide		: false,
 				speed				: ( swiperSpeed ? swiperSpeed : 1000 ),
